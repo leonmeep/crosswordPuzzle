@@ -554,8 +554,16 @@ video {
   --tw-contain-style:  ;
 }
 
+.mb-auto {
+  margin-bottom: auto;
+}
+
 .flex {
   display: flex;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .flex-col {
@@ -566,6 +574,10 @@ video {
   align-items: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-playwritesk {
   font-family: Playwrite SK, cursive, font-optical-sizing, auto, font-StylePropertyMap, normal;
 }
@@ -573,4 +585,9 @@ video {
 .text-cyan-800 {
   --tw-text-opacity: 1;
   color: rgb(21 94 117 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
